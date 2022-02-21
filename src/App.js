@@ -11,16 +11,13 @@ function App() {
     <Router>
       <Nav />
       <Routes>
-        <Route path="react-exchange-rates/" element={<Home />} />
-        <Route path="react-exchange-rates/crypto" element={<Crypto coin />}>
+        <Route path="/" element={<Home />} />
+        <Route path="/crypto" element={<Crypto coin />}>
           {/* <Route path="{coin}" element={<Crypto />} /> */}
         </Route>
         {/* <Route path="/crypto/:coin" element={<CryptoCoin /> */}
-        <Route path="react-exchange-rates/classic" element={<Classic />} />
-        <Route
-          path="react-exchange-rates/CryptoCoin"
-          element={<CryptoCoin />}
-        />
+        <Route path="/classic" element={<Classic />} />
+        <Route path="CryptoCoin" element={<CryptoCoin />} />
       </Routes>
     </Router>
   );
