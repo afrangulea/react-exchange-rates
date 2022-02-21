@@ -6,9 +6,9 @@ const Nav = () => {
       <h1>React Router and API Call</h1>
 
       <div className="links">
-        <Link to="/crypto">Crypto Currencies</Link>
-        <Link to="/classic">Classic Currencies</Link>
-        <Link to="/"> Home</Link>
+        <Link to="react-exchange-rates/crypto">Crypto Currencies</Link>
+        <Link to="react-exchange-rates/classic">Classic Currencies</Link>
+        <Link to="react-exchange-rates/"> Home</Link>
       </div>
     </nav>
   );

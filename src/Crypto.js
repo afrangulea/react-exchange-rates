@@ -45,7 +45,10 @@ const Crypto = () => {
         <h4>Please click on currencies to see exchange rates</h4>
 
         <li>
-          <Link to="/crypto" onClick={(e) => handleClick("bitcoin")}>
+          <Link
+            to="react-exchange-rates/crypto"
+            onClick={(e) => handleClick("bitcoin")}
+          >
             Bitcoin
           </Link>
         </li>
