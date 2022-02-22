@@ -2,9 +2,7 @@ const CryptoCoin = (props) => {
   const symbol = props.symbol;
   const rateUsd = props.rateUsd;
   console.log(props);
-  // useEffect(() => {
-  //   console.log("use effect ran");
-  // }, []);
+
   return (
     <div className="crypto-coin-details">
       <table className="coin-details">
