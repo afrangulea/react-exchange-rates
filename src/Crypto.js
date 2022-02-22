@@ -81,7 +81,7 @@ const Crypto = () => {
         </table>
       </div>
 
-      {/* <CryptoCoin name={"ceva"} symbol={symbol} rateUsd={rateUsd} coin={coin} /> */}
+      <CryptoCoin name={"ceva"} symbol={symbol} rateUsd={rateUsd} coin={coin} />
     </div>
   );
 };
